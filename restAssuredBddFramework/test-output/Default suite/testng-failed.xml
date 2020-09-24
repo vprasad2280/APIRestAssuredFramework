@@ -3,12 +3,25 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
+      <class name="xyzApiTests.GetTests">
+        <methods>
+          <include name="baseTest"/>
+          <include name="getMultipleUserTest"/>
+          <include name="getSingleUserTest"/>
+        </methods>
+      </class> <!-- xyzApiTests.GetTests -->
       <class name="xyzApiTests.PostTestPojo">
         <methods>
           <include name="baseTest"/>
           <include name="pojoTest"/>
         </methods>
       </class> <!-- xyzApiTests.PostTestPojo -->
+      <class name="xyzApiTests.POSTTest">
+        <methods>
+          <include name="baseTest"/>
+          <include name="validpostTest"/>
+        </methods>
+      </class> <!-- xyzApiTests.POSTTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

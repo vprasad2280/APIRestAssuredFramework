@@ -8,6 +8,7 @@
 	</classpathentry>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
+			<attribute name="test" value="true"/>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
@@ -23,6 +24,5 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
-	<classpathentry kind="lib" path="C:/Users/ReNew/Downloads/eclipse/plugins/org.testng.eclipse_6.9.11.201604020423/lib/testng.jar" sourcepath="C:/Users/ReNew/Downloads/eclipse/plugins/org.testng.eclipse_6.9.11.201604020423/lib/testng-sources.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
